@@ -1,2 +1,2 @@
 # config.sh
-DOMAIN_NAME="$DOMAIN_NAME"
+DOMAIN_NAME="vanwaverentech.nl"
