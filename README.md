@@ -1,9 +1,9 @@
 ```bash
 # 1. Sla de Apache VirtualHost config op als:
-#    /etc/apache2/sites-available/wetty.vanwaverentech.nl.conf
+#    /etc/apache2/sites-available/wetty.$DOMAIN_NAME.conf
 
 # 2. Activeer de site:
-sudo a2ensite wetty.vanwaverentech.nl.conf
+sudo a2ensite wetty.$DOMAIN_NAME.conf
 
 # 3. Herlaad Apache om de config toe te passen:
 sudo systemctl reload apache2
@@ -11,7 +11,7 @@ sudo systemctl reload apache2
 # 4. (Optioneel) Controleer of de site actief is:
 apache2ctl -S
 # Verwachte outputregel:
-# port 443 namevhost wetty.vanwaverentech.nl (/etc/apache2/sites-enabled/wetty.vanwaverentech.nl.conf:1)
+# port 443 namevhost wetty.$DOMAIN_NAME (/etc/apache2/sites-enabled/wetty.$DOMAIN_NAME.conf:1)
 
 # 5. Zorg dat de backend op 192.168.1.21:3002 draait en bereikbaar is:
 curl http://192.168.1.21:3002/wetty
@@ -20,4 +20,4 @@ curl http://192.168.1.21:3002/wetty
 npx wetty --port 3002 --base /wetty --host 0.0.0.0
 
 # Cloudflair of local DNS record indien extern benaderbaar.
-# Aanmaken DNS record in local DNS wetty.vanwaverentech.nl -> 192.168.2.111  
+# Aanmaken DNS record in local DNS wetty.$DOMAIN_NAME -> 192.168.2.111  
