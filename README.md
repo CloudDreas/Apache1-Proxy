@@ -1,3 +1,4 @@
+</small>
 # by CloudDras AI is your friend
 
 ### Mask domainname in git ###
@@ -35,3 +36,4 @@ npx wetty --port 3002 --base /wetty --host 0.0.0.0
 
 # Cloudflair of local DNS record indien extern benaderbaar.
 # Aanmaken DNS record in local DNS wetty.$DOMAIN_NAME -> 192.168.2.111  
+</small>
