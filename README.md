@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 by **CloudDras** — AI is your friend
 =======
 </small>
@@ -43,7 +42,6 @@ by **CloudDras** — AI is your friend
     sudo systemctl reload apache2
     ```
 
-<<<<<<< HEAD
 4. (Optional) Check if the site is active:
     ```
     apache2ctl -S
@@ -79,4 +77,3 @@ by **CloudDras** — AI is your friend
 # Cloudflair of local DNS record indien extern benaderbaar.
 # Aanmaken DNS record in local DNS wetty.$DOMAIN_NAME -> 192.168.2.111  
 </small>
->>>>>>> 4499189f2ed144c009ca6c13d42946b4497e326e
