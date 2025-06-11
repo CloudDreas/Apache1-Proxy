@@ -2,7 +2,6 @@ by **CloudDras** — AI is your friend
 =======
 </small>
 # by CloudDras AI is your friend
->>>>>>> 4499189f2ed144c009ca6c13d42946b4497e326e
 
 ---
 
