@@ -1,4 +1,4 @@
-# by CloudDras
+# by CloudDras AI is your friend
 
 ### Mask domainname in git ###
 
