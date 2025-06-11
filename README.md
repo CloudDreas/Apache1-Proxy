@@ -12,8 +12,15 @@ sudo apt install apache2
  ```
 ---
 
-## 1. Install Apache
+**2. Enable Required Apache Modules **
 
+**Enable the modules needed for reverse proxy functionality:**
+```
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+sudo a2enmod proxy_balancer
+sudo a2enmod lbmethod_byrequests
+```
 
 
 
