@@ -1,4 +1,15 @@
-```bash
+### mask domainname ###
+
+# create a config.sh
+DOMAIN_NAME="mydomain.com"
+
+# In your scripts, source this file at the top:
+#!/bin/bash
+source "$(dirname "$0")/config.sh"
+echo "Domain is $DOMAIN_NAME"
+
+##############################################################
+
 # 1. Sla de Apache VirtualHost config op als:
 #    /etc/apache2/sites-available/wetty.$DOMAIN_NAME.conf
 
