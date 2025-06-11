@@ -73,7 +73,4 @@ by **CloudDras** — AI is your friend
 ---
 
 *Happy automating!*
-=======
-# Cloudflair of local DNS record indien extern benaderbaar.
-# Aanmaken DNS record in local DNS wetty.$DOMAIN_NAME -> 192.168.2.111  
 </small>
