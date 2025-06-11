@@ -1,4 +1,4 @@
-by CloudDras
+# by CloudDras
 #!/bin/bash
 source "$(dirname "$0")/config.sh"
 

@@ -1,4 +1,4 @@
-by CloudDras
+# by CloudDras
 #!/bin/bash
 
 # Pad naar backupmap
