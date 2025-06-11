@@ -2,8 +2,8 @@
 # by CloudDras AI is your friend
 
 ---
-**For testing Apache proxyserver with ssl termination **
-**Apache Reverse Proxy Installation on  **
+**For testing Apache proxyserver with ssl termination**
+**Apache Reverse Proxy Installation on**
 
 **This guide explains how to install and configure Apache as a reverse proxy on Ubuntu using `mod_proxy`.**
  ```
