@@ -1,9 +1,10 @@
-### mask domainname ###
+### Mask domainname in git ###
 
-# create a config.sh
+# 1. create a config.sh
 DOMAIN_NAME="mydomain.com"
+# 2. add to .gitignore
 
-# In your scripts, source this file at the top:
+# 3. In your scripts, source this file at the top:
 #!/bin/bash
 source "$(dirname "$0")/config.sh"
 echo "Domain is $DOMAIN_NAME"
