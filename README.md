@@ -1,5 +1,3 @@
-by **CloudDras** — AI is your friend
-=======
 </small>
 # by CloudDras AI is your friend
 
