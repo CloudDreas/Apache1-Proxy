@@ -5,9 +5,11 @@
 **For testing Apache proxyserver with ssl termination **
 **Apache Reverse Proxy Installation on  **
 
-**This guide explains how to install and configure Apache as a reverse proxy on Ubuntu using `mod_proxy`. **
+**This guide explains how to install and configure Apache as a reverse proxy on Ubuntu using `mod_proxy`.**
+ ```
 sudo apt update
 sudo apt install apache2
+ ```
 ---
 
 ## 1. Install Apache
